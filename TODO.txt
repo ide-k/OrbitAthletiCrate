@@ -1,0 +1,33 @@
+orbit app notes(account)
+
+account creation:
+- connect to google (more accessible)
+- might take a bit if im solo
+
+home screen:
+- data? --> look at charts in scenebuilder
+- giant welcome?
+- image?
+--> will have toolbar at the bottom for navigation
+
+toolbar:
+- 4 buttons
+- - home, location, rentals, favourites
+
+home:
+homescreen
+
+location:
+show a map (location services)
+
+rentals:
+placeholder items
+
+favourites:
+add that function
+
+light/dark theme comes later lol
+speaking of themes:
+- add css for orbit colours
+- also add orbit logo
+- - maybe get someone to make a dedicated orbit fitness logo (or whatever the title is)
