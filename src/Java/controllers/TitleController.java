@@ -27,7 +27,7 @@ public class TitleController {
         Parent homeRoot = FXMLLoader.load(getClass().getResource("../resources/view/Home.fxml"));
         Scene homeScene = new Scene(homeRoot);
 
-        Stage window = (Stage)((Node).getScene().getWindow();
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
 
         window.setScene(homeScene);
         window.show();
