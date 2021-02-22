@@ -5,13 +5,13 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.TitleController">
    <children>
       <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#home" onMouseClicked="#homeOnClick" text="Home" />
       <Button layoutX="224.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentals" text="Rentals" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Sidd/Documents/GitHub/OrbitFitnessApp/src/resources/view/1360Logo.png" />
+            <Image url="@1360Logo.png" />
          </image></ImageView>
    </children>
 </AnchorPane>
