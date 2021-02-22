@@ -24,7 +24,7 @@ public class TitleController {
 
     // Method for changing scenes
     public void homeOnClick(ActionEvent e) throws Exception {
-        Parent homeRoot = FXMLLoader.load(getClass().getResource("../resources/view/Home.fxml"));
+        Parent homeRoot = FXMLLoader.load(getClass().getResource("../resources/view/app.fxml"));
         Scene homeScene = new Scene(homeRoot);
 
         Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
