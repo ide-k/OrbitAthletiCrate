@@ -22,7 +22,7 @@ public class TitleController {
         System.out.println("RENTALS");
     }
 
-    // Method for changing scenes
+    // Change scene to home
     public void homeOnClick(ActionEvent e) throws Exception {
         Parent homeRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Home.fxml"));
         Scene homeScene = new Scene(homeRoot);
@@ -30,6 +30,17 @@ public class TitleController {
         Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
 
         window.setScene(homeScene);
+        window.show();
+    }
+
+    // Change scene to rentals
+    public void rentalsOnClick(ActionEvent e) throws Exception {
+        Parent rentalsRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Rentals.fxml"));
+        Scene rentalsScene = new Scene(rentalsRoot);
+
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(rentalsScene);
         window.show();
     }
 }
