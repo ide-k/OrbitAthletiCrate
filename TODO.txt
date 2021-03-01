@@ -13,10 +13,12 @@ home screen:
 - put actual elements on the home screen
 
 home:
-put actual elements on homescreen
+put actual elements on home screen
+make the home button a smaller version of the logo? (ask for lone logo)
+    make it in the centre of rentals and stats or something (pitch this @ next meeting)
 
 location:
-- should be under any seleted item
+- should be under any selected item
 - show a map (location services)
 
 rentals:
