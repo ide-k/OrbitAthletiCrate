@@ -1,21 +1,11 @@
 orbit app notes(account) and TODO
-
-general:
-- add css for orbit colours
-- switch to the scene with the orbit logo and make sure it works properly
-- ask about a dedicated logo for the app once the name is finalized (orbit fitness or whatever)
-
 account creation:
 - login page
 
 home screen:
-- put random data (charts in scenebuilder) on the homescreen
 - put actual elements on the home screen
-
-home:
-put actual elements on home screen
-make the home button a smaller version of the logo? (ask for lone logo)
-    make it in the centre of rentals and stats or something (pitch this @ next meeting)
+- make the home button a smaller version of the logo? (ask for lone logo)
+    - make it in the centre of rentals and stats or something (pitch this @ next meeting)
 
 location:
 - should be under any selected item
@@ -26,7 +16,10 @@ rentals:
 - placeholder items
 
 favourites:
-- add that function as an option on an item
+- add that function as an option on an item (this might be a bit harder)
+
+general:
+- add css for orbit colours
 
 long term:
 - google account integration?
