@@ -13,7 +13,7 @@
    <children>
       <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#home" text="Home" />
       <Button layoutX="224.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentalsOnClick" text="Rentals" />
-      <Label layoutX="102.0" layoutY="14.0" text="THIS IS THE HOME PAGE" />
+      <Label layoutX="102.0" layoutY="14.0" text="WELCOME BACK" />
       <Pane fx:id="paneView" layoutX="20.0" layoutY="41.0" prefHeight="200.0" prefWidth="295.0">
          <padding>
             <Insets left="20.0" right="20.0" />

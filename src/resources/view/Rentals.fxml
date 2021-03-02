@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.RentalsController">
    <children>
       <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#homeOnClick" text="Home" />
