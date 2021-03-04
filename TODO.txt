@@ -4,7 +4,7 @@ account creation:
 
 home screen:
 - put actual elements on the home screen
-- make the home button a smaller version of the logo? (ask for lone logo)
+- make the home button a smaller version of the logo?
     - make it in the centre of rentals and stats or something (pitch this @ next meeting)
 
 location:
@@ -15,7 +15,7 @@ rentals:
 - add buttons for location (location can be an option under any particular item) and favourites
 - placeholder items
 
-favourites:
+    favourites:
 - add that function as an option on an item (this might be a bit harder)
 
 general:

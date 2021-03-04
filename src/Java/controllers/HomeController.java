@@ -55,7 +55,15 @@ public class HomeController implements Initializable {
     public void home(ActionEvent e) throws Exception {
         System.out.println("HOME");
     }
+    public void logoutOnClick(ActionEvent e) throws Exception {
+        Parent loginRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Login.fxml"));
+        Scene loginScene = new Scene(loginRoot);
 
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(loginScene);
+        window.show();
+    }
     // Change scene to rentals
     public void rentalsOnClick(ActionEvent e) throws Exception {
         Parent rentalsRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Rentals.fxml"));
@@ -64,6 +72,14 @@ public class HomeController implements Initializable {
         Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
 
         window.setScene(rentalsScene);
+        window.show();
+    }
+    public void weightsOnClick(ActionEvent e) throws Exception {
+        Parent weightsRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Weights.fxml"));
+        Scene weightsScene = new Scene(weightsRoot);
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(weightsScene);
         window.show();
     }
 }

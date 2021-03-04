@@ -23,4 +23,14 @@ public class RentalsController {
         window.setScene(homeScene);
         window.show();
     }
+
+    // Change scene to weights
+    public void weightsOnClick(ActionEvent e) throws Exception {
+        Parent weightsRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Weights.fxml"));
+        Scene weightsScene = new Scene(weightsRoot);
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(weightsScene);
+        window.show();
+    }
 }

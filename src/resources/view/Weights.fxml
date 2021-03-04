@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.WeightsController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="93.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/WeightsIcon.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="143.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEIGHTS" />
+      <CheckBox layoutX="186.0" layoutY="539.0" mnemonicParsing="false" text="Add to Favourites" />
+      <Button layoutX="43.0" layoutY="535.0" mnemonicParsing="false" onAction="#findOnClick" text="Find Equipment" />
+      <ChoiceBox layoutX="93.0" layoutY="251.0" prefWidth="150.0" />
+      <Text layoutX="93.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Weight:" />
+      <Button layoutX="17.0" layoutY="23.0" mnemonicParsing="false" onAction="#backOnClick" text="Back" />
+      <Text layoutX="65.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALL RENTALS ARE $1/HR" wrappingWidth="205.47265625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="121.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LATE FEES: $2*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*the late fee is charged if you fail to return your item at least 10 minutes after it is due" wrappingWidth="229.47265625">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <ChoiceBox layoutX="91.0" layoutY="317.0" prefWidth="150.0" />
+      <Text layoutX="93.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rental Time" />
+   </children>
+</AnchorPane>

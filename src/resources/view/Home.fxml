@@ -8,12 +8,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.HomeController">
    <children>
       <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#home" text="Home" />
       <Button layoutX="224.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentalsOnClick" text="Rentals" />
-      <Label layoutX="102.0" layoutY="14.0" text="WELCOME BACK" />
+      <Label layoutX="108.0" layoutY="14.0" text="WELCOME BACK USER" />
       <Pane fx:id="paneView" layoutX="20.0" layoutY="41.0" prefHeight="200.0" prefWidth="295.0">
          <padding>
             <Insets left="20.0" right="20.0" />
@@ -29,5 +30,10 @@
             </LineChart>
          </children>
       </Pane>
+      <Text layoutX="131.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST RENTED" />
+      <Button layoutX="55.0" layoutY="307.0" mnemonicParsing="false" onAction="#weightsOnClick" text="Weights" />
+      <Button layoutX="55.0" layoutY="363.0" mnemonicParsing="false" text="Racket" />
+      <Button layoutX="55.0" layoutY="418.0" mnemonicParsing="false" text="Soccer Ball" />
+      <Button layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#logoutOnClick" text="Log Out" />
    </children>
 </AnchorPane>

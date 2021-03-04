@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
@@ -8,6 +10,18 @@
    <children>
       <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#homeOnClick" text="Home" />
       <Button layoutX="224.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentals" text="Rentals" />
-      <Text layoutX="143.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENTALS" />
+      <Text layoutX="143.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENTALS" />
+      <ListView layoutX="22.0" layoutY="59.0" prefHeight="365.0" prefWidth="286.0" />
+      <Button layoutX="30.0" layoutY="74.0" mnemonicParsing="false" onAction="#weightsOnClick" prefHeight="25.0" prefWidth="270.0" text="Weights" />
+      <Button layoutX="30.0" layoutY="136.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Soccer Balls" />
+      <Button layoutX="30.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Foot Balls" />
+      <Separator layoutX="22.0" layoutY="126.0" prefHeight="3.0" prefWidth="286.0" />
+      <Separator layoutX="22.0" layoutY="186.0" prefHeight="3.0" prefWidth="286.0" />
+      <Separator layoutX="22.0" layoutY="244.0" prefHeight="3.0" prefWidth="286.0" />
+      <Button layoutX="30.0" layoutY="255.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Tennis Balls" />
+      <Separator layoutX="22.0" layoutY="299.0" prefHeight="3.0" prefWidth="286.0" />
+      <Separator layoutX="22.0" layoutY="363.0" prefHeight="3.0" prefWidth="286.0" />
+      <Button layoutX="30.0" layoutY="310.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Nets" />
+      <Button layoutX="30.0" layoutY="373.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Rackets" />
    </children>
 </AnchorPane>
