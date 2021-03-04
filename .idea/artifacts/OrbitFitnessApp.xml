@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="OrbitFitnessApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/OrbitFitnessApp</output-path>
+    <root id="root">
+      <element id="archive" name="OrbitFitnessApp.jar">
+        <element id="module-output" name="OrbitFitnessApp" />
+      </element>
+    </root>
+  </artifact>
+</component>
