@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.CreateAccountController">
+<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.CreateAccountController">
    <children>
       <TextField layoutX="94.0" layoutY="160.0" promptText="New Username" />
       <Text layoutX="118.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREATE ACCOUNT" />
