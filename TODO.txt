@@ -1,25 +1,6 @@
 orbit app notes(account) and TODO
-account creation:
-- login page
-
-home screen:
-- put actual elements on the home screen
-- make the home button a smaller version of the logo?
-    - make it in the centre of rentals and stats or something (pitch this @ next meeting)
-
-location:
-- should be under any selected item
-- show a map (location services)
-
-rentals:
-- add buttons for location (location can be an option under any particular item) and favourites
-- placeholder items
-
-    favourites:
-- add that function as an option on an item (this might be a bit harder)
-
 general:
 - add css for orbit colours
 
-long term:
-- google account integration?
+figure out how to actually package javafx projects into a .jar
+make the text document in out\artifacts\OrbitFitnessApp_jar into a .bat so you can easily open the app
