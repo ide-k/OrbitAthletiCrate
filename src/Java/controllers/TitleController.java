@@ -12,19 +12,9 @@ import java.io.IOException;
 
 public class TitleController {
 
-    // testing home button
-    public void home(ActionEvent e) {
-        System.out.println("HOME");
-    }
-
-    // testing rentals button
-    public void rentals(ActionEvent e) {
-        System.out.println("RENTALS");
-    }
-
     // Change scene to home
     public void homeOnClick(ActionEvent e) throws Exception {
-        Parent homeRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Home.fxml"));
+        Parent homeRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Map.fxml"));
         Scene homeScene = new Scene(homeRoot);
 
         Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();

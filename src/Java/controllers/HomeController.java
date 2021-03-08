@@ -52,9 +52,16 @@ public class HomeController implements Initializable {
         paneView.getChildren().add(statsChart);
     }
 
-    public void home(ActionEvent e) throws Exception {
-        System.out.println("HOME");
+    public void accountOnClick(ActionEvent e) throws Exception {
+        Parent accountRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Account.fxml"));
+        Scene accountScene = new Scene(accountRoot);
+
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(accountScene);
+        window.show();
     }
+
     public void logoutOnClick(ActionEvent e) throws Exception {
         Parent loginRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Login.fxml"));
         Scene loginScene = new Scene(loginRoot);

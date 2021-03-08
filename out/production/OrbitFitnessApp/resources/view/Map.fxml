@@ -7,12 +7,16 @@
 
 <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.MapController">
    <children>
-      <ImageView fitHeight="544.0" fitWidth="319.0" layoutX="8.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="628.0" fitWidth="335.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" scaleY="1.31">
+         <image>
+            <Image url="@../images/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="564.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/sampleMap.png" />
          </image>
       </ImageView>
-      <Button layoutX="13.0" layoutY="6.0" mnemonicParsing="false" onAction="#backOnClick" text="Back" />
-      <Button layoutX="33.0" layoutY="574.0" mnemonicParsing="false" onAction="#confirmOnClick" text="Confirm Payment" />
+      <Button layoutX="183.0" layoutY="125.0" mnemonicParsing="false" onAction="#rentalsOnClick" opacity="0.2" prefHeight="25.0" prefWidth="23.0" />
    </children>
 </AnchorPane>

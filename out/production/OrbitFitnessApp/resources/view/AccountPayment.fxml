@@ -4,12 +4,21 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.AccountPaymentController">
    <children>
+      <ImageView fitHeight="482.0" fitWidth="341.0" layoutX="-3.0" layoutY="48.0" opacity="0.98" pickOnBounds="true" preserveRatio="true" scaleY="1.31">
+         <image>
+            <Image url="@../images/bg.png" />
+         </image>
+      </ImageView>
       <Button layoutX="111.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="159.0" text="PayPal" />
-      <Text layoutX="115.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT METHOD" />
+      <Text fill="WHITE" layoutX="78.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT METHOD">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Text>
       <Button layoutX="111.0" layoutY="218.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="159.0" text="Debit Card" />
       <Button layoutX="111.0" layoutY="288.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="159.0" text="Credit Card" />
       <Button layoutX="111.0" layoutY="357.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="159.0" text="BitCoin" />

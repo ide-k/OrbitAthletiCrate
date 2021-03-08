@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.ReportSubmitController">
    <children>
-      <Text layoutX="56.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANK YOU FOR YOUR SUBMISSION" textAlignment="CENTER" wrappingWidth="221.3515625">
+      <ImageView fitHeight="500.0" fitWidth="335.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" scaleY="1.31">
+         <image>
+            <Image url="@../images/bg.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="56.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANK YOU FOR YOUR SUBMISSION" textAlignment="CENTER" wrappingWidth="221.3515625">
          <font>
-            <Font size="24.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </Text>
-      <Text layoutX="90.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Team will get back to you as soon as possible" textAlignment="CENTER" wrappingWidth="155.173828125">
+      <Text fill="WHITE" layoutX="90.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Team will get back to you as soon as possible" textAlignment="CENTER" wrappingWidth="155.173828125">
          <font>
             <Font size="18.0" />
          </font>

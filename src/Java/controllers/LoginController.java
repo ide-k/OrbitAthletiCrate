@@ -31,26 +31,4 @@ public class LoginController {
         window.setScene(createAccountScene);
         window.show();
     }
-
-//    private void loadSplashScreen() {
-//        try {
-//            StackPane pane = FXMLLoader.load(getClass().getResource("../../resources/view/Splash.fxml"));
-//            loginRoot.getChildren().setAll(pane);
-//
-//            FadeTransition fadeIn = new FadeTransition(Duration.seconds(3), pane);
-//            fadeIn.setFromValue(0);
-//            fadeIn.setToValue(1);
-//            fadeIn.setCycleCount(1);
-//
-//            FadeTransition fadeOut = new FadeTransition(Duration.seconds(3), pane);
-//            fadeOut.setFromValue(1);
-//            fadeOut.setToValue(0);
-//            fadeOut.setCycleCount(1);
-//
-//            fadeIn.play();
-//
-//            fadeIn.setOnFinished((e) -> {})
-//
-//        }
-
 }
