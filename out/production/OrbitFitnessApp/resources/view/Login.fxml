@@ -10,7 +10,10 @@
 
 <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.LoginController">
    <children>
-      <Text layoutX="150.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" />
+      <Text layoutX="126.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
       <TextField layoutX="87.0" layoutY="146.0" promptText="Username" />
       <PasswordField layoutX="87.0" layoutY="211.0" promptText="Password" />
       <CheckBox layoutX="87.0" layoutY="283.0" mnemonicParsing="false" text="Remember Me" />

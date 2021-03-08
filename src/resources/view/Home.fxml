@@ -6,21 +6,23 @@
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.HomeController">
    <children>
-      <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#home" text="Home" />
-      <Button layoutX="224.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentalsOnClick" text="Rentals" />
-      <Label layoutX="108.0" layoutY="14.0" text="WELCOME BACK USER" />
-      <Pane fx:id="paneView" layoutX="20.0" layoutY="41.0" prefHeight="200.0" prefWidth="295.0">
+      <Button layoutX="43.0" layoutY="549.0" mnemonicParsing="false" onAction="#home" text="Account" />
+      <Button layoutX="237.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentalsOnClick" text="Rentals" />
+      <Pane fx:id="paneView" layoutX="21.0" layoutY="63.0" prefHeight="200.0" prefWidth="295.0">
          <padding>
             <Insets left="20.0" right="20.0" />
          </padding>
          <children>
-            <LineChart prefHeight="200.0" prefWidth="295.0" title="YOUR STATS">
+            <LineChart layoutY="27.0" prefHeight="200.0" prefWidth="295.0" title="YOUR STATS">
               <xAxis>
                 <CategoryAxis side="BOTTOM" />
               </xAxis>
@@ -30,10 +32,50 @@
             </LineChart>
          </children>
       </Pane>
-      <Text layoutX="131.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST RENTED" />
-      <Button layoutX="55.0" layoutY="307.0" mnemonicParsing="false" onAction="#weightsOnClick" text="Weights" />
-      <Button layoutX="55.0" layoutY="363.0" mnemonicParsing="false" text="Racket" />
-      <Button layoutX="55.0" layoutY="418.0" mnemonicParsing="false" text="Soccer Ball" />
+      <Text layoutX="131.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST RENTED">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Button layoutX="138.0" layoutY="317.0" mnemonicParsing="false" onAction="#weightsOnClick" text="Weights" />
+      <Button layoutX="142.0" layoutY="382.0" mnemonicParsing="false" text="Racket" />
+      <Button layoutX="131.0" layoutY="451.0" mnemonicParsing="false" text="Soccer Ball" />
       <Button layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#logoutOnClick" text="Log Out" />
+      <ImageView fitHeight="46.0" fitWidth="42.0" layoutX="52.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/WeightsIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="138.0" layoutY="549.0" mnemonicParsing="false" onAction="#favOnClick" text="Favourites" />
+      <ImageView fitHeight="46.0" fitWidth="42.0" layoutX="52.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/racketIcon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="42.0" layoutX="52.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/soccerIcon.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="242.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yesterday">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="230.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Two Days Ago">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="230.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Two Days Ago">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="278.0" layoutY="10.0" mnemonicParsing="false" onAction="#issueOnClick" prefHeight="25.0" prefWidth="42.0" text="Help" />
+      <Label layoutX="82.0" layoutY="35.0" text="ACCOUNT INFO">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

@@ -4,3 +4,27 @@ general:
 
 figure out how to actually package javafx projects into a .jar
 make the text document in out\artifacts\OrbitFitnessApp_jar into a .bat so you can easily open the app
+work with fxml then transfer to flutter later
+
+
+SPLASH SCREEN
+
+static buttons
+
+flow:
+open app =  login -> map (choose location) -> invis button -> rentals
+-> choose item -> confirm rent
+
+rentals:
+find equip = start rental
+
+active rentals:
+rentals + active rentals (top) + which compartment + duration of rent
+lock/unlock checkbox
+validate return checkbox
+
+home = history
+profile = account info (add a button on history page)
+account info should include: name phone number payment info (this is where payment info will be changed)
+
+img as bg (in place of colour) (match aesthetic)

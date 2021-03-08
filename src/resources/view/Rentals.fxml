@@ -3,6 +3,8 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
@@ -10,18 +12,30 @@
    <children>
       <Button layoutX="56.0" layoutY="549.0" mnemonicParsing="false" onAction="#homeOnClick" text="Home" />
       <Button layoutX="224.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentals" text="Rentals" />
-      <Text layoutX="143.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENTALS" />
-      <ListView layoutX="22.0" layoutY="59.0" prefHeight="365.0" prefWidth="286.0" />
-      <Button layoutX="30.0" layoutY="74.0" mnemonicParsing="false" onAction="#weightsOnClick" prefHeight="25.0" prefWidth="270.0" text="Weights" />
-      <Button layoutX="30.0" layoutY="136.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Soccer Balls" />
-      <Button layoutX="30.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Foot Balls" />
-      <Separator layoutX="22.0" layoutY="126.0" prefHeight="3.0" prefWidth="286.0" />
-      <Separator layoutX="22.0" layoutY="186.0" prefHeight="3.0" prefWidth="286.0" />
-      <Separator layoutX="22.0" layoutY="244.0" prefHeight="3.0" prefWidth="286.0" />
-      <Button layoutX="30.0" layoutY="255.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Tennis Balls" />
-      <Separator layoutX="22.0" layoutY="299.0" prefHeight="3.0" prefWidth="286.0" />
-      <Separator layoutX="22.0" layoutY="363.0" prefHeight="3.0" prefWidth="286.0" />
-      <Button layoutX="30.0" layoutY="310.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Nets" />
-      <Button layoutX="30.0" layoutY="373.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Rackets" />
+      <Text layoutX="119.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTIVE RENTALS" />
+      <ListView layoutX="22.0" layoutY="263.0" prefHeight="273.0" prefWidth="286.0" />
+      <Button layoutX="29.0" layoutY="309.0" mnemonicParsing="false" onAction="#weightsOnClick" prefHeight="25.0" prefWidth="270.0" text="Weights" />
+      <Button layoutX="30.0" layoutY="404.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="270.0" text="Soccer Balls" />
+      <Separator layoutX="23.0" layoutY="342.0" prefHeight="3.0" prefWidth="286.0" />
+      <Separator layoutX="21.0" layoutY="435.0" prefHeight="3.0" prefWidth="286.0" />
+      <Button layoutX="29.0" layoutY="500.0" mnemonicParsing="false" opacity="0.4" prefHeight="25.0" prefWidth="270.0" text="Tennis Balls" />
+      <ImageView fitHeight="37.0" fitWidth="36.0" layoutX="148.0" layoutY="451.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/tennisIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="148.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/soccerIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="48.0" layoutX="145.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/WeightsIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="130.0" layoutY="549.0" mnemonicParsing="false" onAction="#favOnClick" text="Favourites" />
+      <ListView layoutX="21.0" layoutY="23.0" prefHeight="212.0" prefWidth="286.0" />
+      <Text layoutX="143.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENTALS" />
    </children>
 </AnchorPane>

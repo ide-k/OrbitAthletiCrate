@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.controllers.FavController">
+   <children>
+      <Text layoutX="100.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAVOURITES">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="20.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/favIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="151.0" layoutY="143.0" mnemonicParsing="false" onAction="#weightsOnClick" text="Weights" />
+      <ImageView fitHeight="64.0" fitWidth="65.0" layoutX="78.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/WeightsIcon.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="84.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is the end of your favourites list..." textAlignment="CENTER" wrappingWidth="166.65625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="142.0" layoutY="475.0" mnemonicParsing="false" onAction="#rentalsOnClick" text="Rentals" />
+      <Text layoutX="137.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add More?">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="140.0" layoutY="545.0" mnemonicParsing="false" onAction="#homeOnClick" text="Account" />
+   </children>
+</AnchorPane>

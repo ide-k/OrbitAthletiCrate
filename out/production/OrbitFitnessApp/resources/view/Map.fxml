@@ -13,6 +13,6 @@
          </image>
       </ImageView>
       <Button layoutX="13.0" layoutY="6.0" mnemonicParsing="false" onAction="#backOnClick" text="Back" />
-      <Button layoutX="33.0" layoutY="574.0" mnemonicParsing="false" text="Select Item" />
+      <Button layoutX="33.0" layoutY="574.0" mnemonicParsing="false" onAction="#confirmOnClick" text="Confirm Payment" />
    </children>
 </AnchorPane>

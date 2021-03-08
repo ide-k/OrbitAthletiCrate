@@ -82,4 +82,23 @@ public class HomeController implements Initializable {
         window.setScene(weightsScene);
         window.show();
     }
+
+    public void favOnClick(ActionEvent e) throws Exception {
+        Parent favRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Favourites.fxml"));
+        Scene favScene = new Scene(favRoot);
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(favScene);
+        window.show();
+    }
+
+    public void issueOnClick(ActionEvent e) throws Exception {
+        Parent issueRoot = FXMLLoader.load(getClass().getResource("../../resources/view/ReportIssue.fxml"));
+        Scene issueScene = new Scene(issueRoot);
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(issueScene);
+        window.show();
+    }
+
 }

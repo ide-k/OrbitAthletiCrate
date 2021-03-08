@@ -16,4 +16,14 @@ public class MapController {
         window.setScene(weightsScene);
         window.show();
     }
+
+    public void confirmOnClick(ActionEvent e) throws Exception {
+        Parent createAccountRoot = FXMLLoader.load(getClass().getResource("../../resources/view/AccountPayment.fxml"));
+        Scene createAccountScene = new Scene(createAccountRoot);
+
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(createAccountScene);
+        window.show();
+    }
 }
