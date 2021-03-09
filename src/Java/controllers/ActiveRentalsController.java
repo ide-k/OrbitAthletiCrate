@@ -7,9 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class RentalsController {
-
-    // Change scene to home
+public class ActiveRentalsController {
     public void homeOnClick(ActionEvent e) throws Exception {
         Parent homeRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Home.fxml"));
         Scene homeScene = new Scene(homeRoot);
@@ -39,6 +37,15 @@ public class RentalsController {
         window.show();
     }
 
+    public void activeRentConfirmOnClick(ActionEvent e) throws Exception {
+        Parent rentRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Rentals.fxml"));
+        Scene rentScene = new Scene(rentRoot);
+        Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();
+
+        window.setScene(rentScene);
+        window.show();
+    }
+
     public void mapOnClick(ActionEvent e) throws Exception {
         Parent mapRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Map.fxml"));
         Scene mapScene = new Scene(mapRoot);
@@ -47,4 +54,5 @@ public class RentalsController {
         window.setScene(mapScene);
         window.show();
     }
+
 }

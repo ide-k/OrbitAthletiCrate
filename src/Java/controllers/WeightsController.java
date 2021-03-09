@@ -20,7 +20,7 @@ public class WeightsController {
     }
 
     public void findOnClick(ActionEvent e) throws Exception {
-        Parent mapRoot = FXMLLoader.load(getClass().getResource("../../resources/view/Map.fxml"));
+        Parent mapRoot = FXMLLoader.load(getClass().getResource("../../resources/view/RentalsWithActive.fxml"));
         Scene mapScene = new Scene(mapRoot);
 
         Stage window = (Stage)((Node)e.getSource()).getScene().getWindow();

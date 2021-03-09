@@ -11,10 +11,5 @@ static buttons
 * = done
 
 flow:
-open app =  login -> map* (choose location) -> invis button* -> rentals*
--> choose item* -> confirm rent
-
-active rentals:
-rentals + active rentals (top) + which compartment + duration of rent
-lock/unlock checkbox
-validate return checkbox
+open app =  login* -> map* (choose location) -> invis button* -> rentals*
+-> choose item* -> confirm rent*

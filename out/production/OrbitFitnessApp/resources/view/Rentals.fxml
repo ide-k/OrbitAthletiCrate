@@ -17,7 +17,7 @@
          </image>
       </ImageView>
       <Button layoutX="38.0" layoutY="549.0" mnemonicParsing="false" onAction="#homeOnClick" text="History" />
-      <Button layoutX="242.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentals" text="Map" />
+      <Button layoutX="242.0" layoutY="549.0" mnemonicParsing="false" onAction="#mapOnClick" text="Map" />
       <Text fill="WHITE" layoutX="119.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTIVE RENTALS">
          <font>
             <Font name="System Bold" size="12.0" />
@@ -46,5 +46,20 @@
       <Button layoutX="132.0" layoutY="549.0" mnemonicParsing="false" onAction="#favOnClick" text="Favourites" />
       <ListView layoutX="21.0" layoutY="23.0" prefHeight="212.0" prefWidth="286.0" />
       <Text fill="WHITE" layoutX="143.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENTALS" />
+      <Text layoutX="54.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You Currently Have Nothing Rented...">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="See the options below to rent equipment">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="154.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🠓🠓🠓">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
