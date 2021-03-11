@@ -31,5 +31,20 @@
       </Text>
       <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#backOnClick" text="Back" />
       <Button layoutX="103.0" layoutY="497.0" mnemonicParsing="false" onAction="#paymentOnClick" text="Change Payment Info" />
+      <ImageView fitHeight="48.0" fitWidth="57.0" layoutX="205.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/paypalLogo2.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="46.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Payment Options:" wrappingWidth="145.58203125">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="56.0" fitWidth="57.0" layoutX="262.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/VisaLogo2.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

@@ -29,12 +29,12 @@ public class HomeController implements Initializable {
     {
         paneView.getChildren().clear();
         NumberAxis xAxis = new NumberAxis(1, 5, 1);
-        xAxis.setLabel("Months");
+        xAxis.setLabel("");
 
         NumberAxis yAxis = new NumberAxis(0,40,10);
-        yAxis.setLabel("Equipment Rented");
+        yAxis.setLabel("");
         LineChart<Number,Number> statsChart = new LineChart(xAxis, yAxis);
-        statsChart.setTitle("YOUR STATS");
+        statsChart.setTitle("");
 
         XYChart.Series statsSeries = new XYChart.Series();
         statsSeries.setName("rented equipment");

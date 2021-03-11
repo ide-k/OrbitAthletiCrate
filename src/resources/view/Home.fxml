@@ -22,12 +22,22 @@
       </ImageView>
       <Button layoutX="14.0" layoutY="48.0" mnemonicParsing="false" onAction="#accountOnClick" text="Account" />
       <Button layoutX="215.0" layoutY="549.0" mnemonicParsing="false" onAction="#rentalsOnClick" text="Rentals" />
-      <Pane fx:id="paneView" layoutX="20.0" layoutY="89.0" prefHeight="200.0" prefWidth="295.0">
+      <Text fill="WHITE" layoutX="101.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR STATS">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="114.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST RENTED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Pane fx:id="paneView" layoutX="14.0" layoutY="95.0" prefHeight="161.0" prefWidth="295.0">
          <padding>
             <Insets left="20.0" right="20.0" />
          </padding>
          <children>
-            <LineChart prefHeight="200.0" prefWidth="295.0" title="YOUR STATS">
+            <LineChart layoutY="-14.0" prefHeight="200.0" prefWidth="295.0">
               <xAxis>
                 <CategoryAxis side="BOTTOM" />
               </xAxis>
@@ -37,10 +47,6 @@
             </LineChart>
          </children>
       </Pane>
-      <Text fill="WHITE" layoutX="131.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST RENTED">
-         <font>
-            <Font size="14.0" />
-         </font></Text>
       <Button layoutX="138.0" layoutY="317.0" mnemonicParsing="false" onAction="#weightsOnClick" text="Weights" />
       <Button layoutX="142.0" layoutY="382.0" mnemonicParsing="false" text="Racket" />
       <Button layoutX="131.0" layoutY="451.0" mnemonicParsing="false" text="Soccer Ball" />
@@ -77,9 +83,9 @@
          </font>
       </Text>
       <Button layoutX="278.0" layoutY="10.0" mnemonicParsing="false" onAction="#issueOnClick" prefHeight="25.0" prefWidth="42.0" text="Help" />
-      <Label layoutX="117.0" layoutY="23.0" text="HISTORY" textFill="WHITE">
+      <Label layoutX="97.0" layoutY="22.0" text="HISTORY" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="24.0" />
+            <Font name="System Bold" size="36.0" />
          </font>
       </Label>
    </children>
